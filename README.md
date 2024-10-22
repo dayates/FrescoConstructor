@@ -1,0 +1,1 @@
+This program is used for constructing FRESCO coupled-channel reaction code inputs for (d,p) reactions. This is a work in progress.
