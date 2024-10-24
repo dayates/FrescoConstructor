@@ -1,0 +1,2 @@
+ &PARTITION namep=BEAM_ISOTOPE massp=BEAM_MASS zp=BEAM_Z namet=TARGET_NAME 
+	 masst=TARGET_MASS zt=TARGET_Z qval=Q_VALUE pwf=F nex=NUM_STATES  /

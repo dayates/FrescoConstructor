@@ -1,0 +1,8 @@
+NAMELIST
+ &FRESCO hcm=0.1 rmatch=45.000 rintp=0.20 
+    hnl=0.100 rnl=20 centre=-3.5 hnn=0.8 rnn=8. 
+    rmin=0.2 rsp=0.0 jtmin=0.0 jtmax=50 absend=-0.0000 
+    jump= 0  jbord= 0 thmin=1.00 thmax=180.00 thinc=1.00 
+    cutl=-2 cutr=0.00 cutc=0.00 ips=0.0000 it0=1 
+    iter=1 iblock=1 nnu=24 chans=1 smats=2
+    xstabl=1 elab= LAB_ENERGY  nlab= 0 psiren=T /
