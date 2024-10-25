@@ -1,2 +1,2 @@
- &STATES jp=BEAM_J bandp=BEAM_PARITY cpot=1 jt=TARGET_J 
+ &STATES jp=BEAM_J bandp=BEAM_PARITY ep=BEAM_EXC_ENERGY cpot=1 jt=TARGET_J 
 	 bandt=TARGET_PARITY  /
