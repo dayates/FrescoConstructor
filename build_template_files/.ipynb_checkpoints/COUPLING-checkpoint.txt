@@ -1,0 +1,2 @@
+&COUPLING icto=2 icfrom=1 kind=7 ip1=1 ip2=-1 
+	 ip3=5  /
