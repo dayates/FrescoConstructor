@@ -1,2 +1,2 @@
-  &OVERLAP kn1=1STATE_NUM ic1=2 ic2=1 in=1 nn=STATE_NN l=STATE_L sn=0.5 
+&OVERLAP kn1=1STATE_NUM ic1=2 ic2=1 in=1 nn=STATE_NN l=STATE_L sn=0.5 
 	 j=STATE_J kbpot=5 be=STATE_SN isc=1  /
