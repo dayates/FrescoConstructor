@@ -1,0 +1,4 @@
+&POT kp=KP_NUM ap=MASS rc=RC  /
+ &POT kp=KP_NUM type=1 p1=V0 p2=R0 p3=A0  /
+ &POT kp=KP_NUM type=2 p4=WD p5=RD p6=AD  /
+ &POT kp=KP_NUM type=4 p1=VL p2=RL p3=AL  /

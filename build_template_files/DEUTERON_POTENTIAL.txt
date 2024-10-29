@@ -1,0 +1,3 @@
+ &POT kp=4 ap=1 rc=1.30  /
+ &POT kp=4 type=1 shape=5 p1=1 p3=1  /
+ &POT kp=4 type=1 shape=2 p1=72.15 p3=1.484  p7=1  /
