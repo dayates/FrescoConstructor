@@ -2,13 +2,13 @@
 
 #user-written imports
 from masses import *
-from calculations import *
+from constructors.calculations import *
 #from calculations import calculate_deuteron_binding_energy
-from construction_functions import *
+from constructors.construction_functions import *
 #from constructor import *
-from inputs import *
-from isotope import *
-from potentials import *
+from constructors.inputs import *
+from constructors.isotope import *
+from constructors.potentials import *
 
 #determine the potentials to use:
 def determine_neutron_potential():

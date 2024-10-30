@@ -8,13 +8,13 @@ from dataclasses import dataclass
 
 #user-written imports
 from masses import *
-from calculations import *
-from construction_functions import *
-from constructor import *
-from inputs import *
-from isotope import *
-from potentials import *
-
+from constructors.calculations import *
+from constructors.construction_functions import *
+from constructors.constructor import *
+from constructors.inputs import *
+from constructors.isotope import *
+from constructors.potentials import *
+#from constructors import *
 
 #execute the code
 if __name__ == '__main__':
