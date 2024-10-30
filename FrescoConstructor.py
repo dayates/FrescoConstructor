@@ -7,7 +7,7 @@ import re
 from dataclasses import dataclass
 
 #user-written imports
-from ame_masses import *
+from masses import *
 from calculations import *
 from construction_functions import *
 from constructor import *
@@ -16,7 +16,11 @@ from isotope import *
 from potentials import *
 
 
+#execute the code
+if __name__ == '__main__':
 
-mass_df = get_AME_masses()
+	#get our mass dataframe
+	mass_df = get_AME_masses()
 
-Fresco_constructor(mass_df)
+	#use the mass dataframe to execute the FRESCO constructor
+	Fresco_constructor(mass_df)

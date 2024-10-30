@@ -8,7 +8,7 @@ import pandas as pd
 #this will unpack the AME and return a pandas DataFrame of masses
 def get_AME_masses():
 	#import NNDC Masses as a Pandas DataFrame
-	masses = pd.read_fwf("mass_1.mas20.txt",skiprows=33,infer_nrows=3500) 
+	masses = pd.read_fwf("masses/mass_1.mas20.txt",skiprows=33,infer_nrows=3500) 
 	#infer rows to almost the entire thing so that it parses the larger N,Z,A values correctly
 
 	#drop some columns we don't care about

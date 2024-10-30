@@ -1,7 +1,7 @@
 #construction of the file in the function here
 
 #user-written imports
-from ame_masses import *
+from masses import *
 from calculations import *
 #from calculations import calculate_deuteron_binding_energy
 from construction_functions import *
@@ -159,7 +159,7 @@ def Fresco_constructor(mass_df):
 
 
     #end of construction of file. Save it now
-    file_name = f'{beam_isotope.isotope}_dp_{recoil.isotope}_{dpot}_{ppot}_{int(user_energy)}_MeV.in'
+    file_name = f'outputs/{beam_isotope.isotope}_dp_{recoil.isotope}_{dpot}_{ppot}_{int(user_energy)}_MeV.in'
     out_file = open(file_name,'w')
     out_file.write(fresco_string)
     out_file.close()

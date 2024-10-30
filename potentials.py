@@ -1,7 +1,7 @@
 #optical potentials
 
 #user-written imports
-from ame_masses import *
+from masses import *
 from calculations import *
 #from calculations import calculate_deuteron_binding_energy
 from construction_functions import *
