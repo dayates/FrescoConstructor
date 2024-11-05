@@ -41,7 +41,8 @@ def Fresco_constructor(mass_df):
     #create the states in the final nucleus here
     num_states = get_user_number_states()
     final_states = []
-    for _ in range(num_states):
+    for i in range(num_states):
+        print(f'\nEnter information for state {i+1}:')
          #calculate our recoil
         recoil = create_recoil(beam_isotope,target,ejectile,mass_df)
         get_user_excited_state(recoil)

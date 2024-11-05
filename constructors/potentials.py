@@ -14,35 +14,42 @@ from constructors.potentials import *
 def determine_neutron_potential():
     #no option right now. Just return the potential
 
+    user_pot = "WH"
+    print(f'Using neutron potential {user_pot}')
+    
     return "WH" #Wilmore and Hodgson potential
 
 def determine_proton_potential():
     #BG or Perey potentials. Default is "BG"
-    possible_potentials = ["BG","P"]
-
+    possible_potentials = [["BG","Becchetti and Greenlees"],["P","Perey"]]
+    
     print("Possible proton potentials:")
-    for p in possible_potentials:
-        print(p)
+    for p,name in possible_potentials:
+        print(f'{p}\t- {name}')
     
     user_pot = input("Enter the proton potential (default BG): ")
 
-    if user_pot not in possible_potentials:
+    if user_pot not in (pot[0] for pot in possible_potentials):
         user_pot = 'BG'
+
+    print(f'Using proton potential {user_pot}')
 
     return user_pot
 
 def determine_deuteron_potential():
     #LH or Daehnick potentials. Default is LH
-    possible_potentials = ["LH","Daehnick"]
+    possible_potentials = [["LH","Lohr and Haebleri"],["D","Daehnick"]]
 
     print("Possible deuteron potentials:")
-    for p in possible_potentials:
-        print(p)
+    for p,name in possible_potentials:
+        print(f'{p}\t- {name}')
 
     user_pot = input("Enter the deuteron potential (default LH): ")
 
-    if user_pot not in possible_potentials:
+    if user_pot not in (pot[0] for pot in possible_potentials):
         user_pot = 'LH'
+
+    print(f'Using deuteron potential {user_pot}')
 
     return user_pot
 
